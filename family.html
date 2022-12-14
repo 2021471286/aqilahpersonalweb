@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY WEBSITE</title>
+<meta charset="UTF-8">
+<meta name="viewport" img src="images/usui.png" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFC0CB;
+  color: black;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: purple;
+  color: yellow;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: grey;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Aqilah's Website</h1>
+  <p>A website created by typagurl.</p>
+</div>
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a class="active" href="family.html">My Family</a>
+  <a href="education.html">My Education</a>
+  <a href="hobby.html">My Hobby</a>
+  <a href="favourite.html">My Favourite</a>
+  <a href="friend.html">My Friends</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<br>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column">
+
+<h3 align="center">Mohamad Jamal bin Mat Noor </h3>
+<p>Name:Mohamad Jamal bin Mat Noor</p>
+<p>birth date: 23/10/1972 </p>
+<p>place: Penang</p>
+<p>work: Farmer</p>
+<p>favourite: curry</p>
+<center><a name="dad"><img src="images/dad.jpg" width="50%" height="90%" border="3"></a></center>
+
+
+<br>
+ </div>
+  <div class="column">
+
+<h3 align="center">Jahirah binti Junid</h3>
+<p>Jahirah binti Junid</p>
+<p>birth date: 27/08/1974 </p>
+<p>place: Perlis</p>
+<p>work: Teacher</p>
+<p>favourite: watching drama</p>
+<center><a name="mom"><img src="images/mom.jpg" width="60%" height="400" border="3" ></a></center>
+
+<br>
+</div>
+  <div class="column">
+<h3 align="center">Nur Aqilah Hamizah binti Mohamad Jamal </h3>
+<p>Name: Nur Aqilah Hamizah binti Mohamad Jamal</p>
+<p>birth date: 06/06/2001 </p>
+<p>place: Perlis</p>
+<p>school: Uitm Kedah</p>
+<p>favourite: listening music</p>
+<center><a name="me"><img src="images/me.jpg" width="50%" height="90%" border="3" ></a></center>
+
+<br>
+</div>
+  <div class="column">
+<h3 align="center">Nur Fatinah Hamizah binti Mohamad Jamal</h3>
+<p>Name:Nur Fatinah Hamizah binti Mohamad Jamal</p>
+<p>birth date: 09/09/2003 </p>
+<p>place: Perlis</p>
+<p>school: SMK Putra</p>
+<p>favourite: watching anime</p>
+<center><a name="little sister"><img src="images/little sister.jpg" width="50%" height="90%" border="3" ></a></center>
+
+<br>
+</div>
+  <div class="column">
+<h3 align="center">Muhammad Aqil Akmal bin Mohamad Jamal </h3>
+<p>Name:Muhammad Aqil Akmal bin Mohamad Jamal<br>
+<p>birth date: 16/11/2008 </p>
+<p>place: Perlis</p>
+<p>school: SMK Perlis</p>
+<p>favourite: playing online games</p>
+<center><a name="little brother"><img src="images/little brother.jpg" width="60%" height="400" border="3"></a></center>
+</body>
+</html>
+
+
+</body>
+</html>
+
